@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: d7636e8626f0a46238bef17bcab3e279
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Abandoned
+  fontNames:
+  - Abandoned
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c7005af16829a4025904a52f04346e4e, type: 3}
+  - {fileID: 12800000, guid: d63c4e5a422ad4a4db0cf15a63ee0924, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
