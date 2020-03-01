@@ -7,6 +7,7 @@ TagManager:
   - Cylinder
   - EnemySight
   - TilesUI
+  - Weapon
   layers:
   - Default
   - TransparentFX

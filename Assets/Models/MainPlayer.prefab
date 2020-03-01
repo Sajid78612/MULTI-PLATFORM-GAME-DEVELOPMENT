@@ -298,6 +298,36 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!1 &2048143950561113075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 487088306437487431}
+  m_Layer: 0
+  m_Name: ShootPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &487088306437487431
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048143950561113075}
+  m_LocalRotation: {x: -0, y: 0.99793416, z: -0, w: -0.06424546}
+  m_LocalPosition: {x: 0.029740209, y: -0.17102076, z: -0.32527608}
+  m_LocalScale: {x: 0.012442667, y: 0.012442668, z: 0.012442667}
+  m_Children: []
+  m_Father: {fileID: 2927602577295509282}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2941014777041373706
 GameObject:
   m_ObjectHideFlags: 0
@@ -1874,6 +1904,7 @@ Transform:
   - {fileID: 7653302835007589584}
   - {fileID: 1696815957202087500}
   - {fileID: 2389540508690340097}
+  - {fileID: 487088306437487431}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

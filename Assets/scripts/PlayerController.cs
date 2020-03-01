@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour {
   {
     transform.Translate(speed*Input.GetAxis("Horizontal")*Time.deltaTime,0f,speed*Input.GetAxis("Vertical")*Time.deltaTime);
 
-    print(lives);
+    //print(lives);
    if(Input.GetKeyDown("c"))
    {
      FirstPerson.SetActive(!isFirst);
@@ -25,6 +25,4 @@ public class PlayerController : MonoBehaviour {
 
   }
 
-
-
-    }
+}
