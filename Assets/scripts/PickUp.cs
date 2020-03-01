@@ -9,7 +9,7 @@ public class PickUp : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //myWeapon.SetActive(false);
+        myWeapon.SetActive(false);
     }
 
     public void onTriggerEnter(Collider col) {
