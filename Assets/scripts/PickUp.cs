@@ -12,12 +12,11 @@ public class PickUp : MonoBehaviour
         myWeapon.SetActive(false);
     }
 
-    public void onTriggerEnter(Collider col) {
-        print("hello");
-        PlayerController player = col.GetComponent<PlayerController>();
-        if(player != null) {
+    public void OnTriggerEnter(Collider other) {
+        if (other.gameObject.tag == "Player")
+        {   
             myWeapon.SetActive(true);
-            weaponOnGround.SetActive(false);
+            Destroy(this.gameObject);      
         }
     }
 

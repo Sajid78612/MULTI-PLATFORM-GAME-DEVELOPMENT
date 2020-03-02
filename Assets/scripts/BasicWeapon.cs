@@ -8,6 +8,7 @@ public class BasicWeapon : MonoBehaviour
     public int maxClipSize = 8;
     private int ammoRemaining = 0;
     float maxRange = 300f;
+    public AudioSource sound;
 
     public bool playerControlled = true;
 
@@ -83,6 +84,7 @@ public class BasicWeapon : MonoBehaviour
 
         if(Input.GetButtonDown("Fire1")) {
             if(ammoRemaining > 0) {
+                sound.Play();
                 Fire();
             }
         }
