@@ -1506,6 +1506,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 696ec3f09cc5249be954d7d1b311e093, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Target: {fileID: 0}
+  m_Height: 10
+  m_Distance: 20
+  m_Angle: 45
   player: {fileID: 685315185146668491}
 --- !u!1 &6449652681395884284
 GameObject:
@@ -1980,11 +1984,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 033751c7925c64d3c8ad83617808f83c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 0
+  Speed: 3
   mainCam: {fileID: 6331799942245549752}
   FirstPerson: {fileID: 3115750886217898901}
+  crosshair: {fileID: 0}
+  roofRemoval: {fileID: 0}
   isFirst: 0
   isTopDown: 1
+  camTransform: {fileID: 0}
+  MoveVector: {x: 0, y: 0, z: 0}
 --- !u!1 &8976144768252563753
 GameObject:
   m_ObjectHideFlags: 0
@@ -1994,7 +2002,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2389540508690340097}
-  - component: {fileID: 8491581980912490648}
   m_Layer: 0
   m_Name: CameraBase
   m_TagString: Untagged
@@ -2017,30 +2024,3 @@ Transform:
   m_Father: {fileID: 2927602577295509282}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8491581980912490648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8976144768252563753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 518019350348a154ebcf8f0b4c5850f1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CameraMoveSpeed: 120
-  CameraFollowObj: {fileID: 3657982594379189825}
-  clampAngle: 80
-  inputSensitivity: 150
-  CameraObj: {fileID: 0}
-  PlayerObj: {fileID: 0}
-  camDistanceXToPlayer: 0
-  camDistanceYToPlayer: 0
-  camDistanceZToPlayer: 0
-  mouseX: 0
-  mouseY: 0
-  finalInputX: 0
-  finalInputZ: 0
-  smoothX: 0
-  smoothY: 0

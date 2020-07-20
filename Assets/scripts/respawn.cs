@@ -1,22 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class respawn : MonoBehaviour
 {
-    [SerializeField] private Transform player;
-    [SerializeField] private Transform respawnpoint;
-
+    //public Transform respawnpoint;
 
       void OnTriggerEnter(Collider c)
-      {
-          PlayerController.lives -= 1;
+      {     
         if(c.GetComponent<Collider>().name =="MainPlayer")
         {
-
-          player.transform.position = respawnpoint.transform.position;
-
-
+          //c.transform.position = respawnpoint.transform.position;
+          //c.GetComponent<PlayerSystem>().reset();
+          Scene scene = SceneManager.GetActiveScene(); 
+          SceneManager.LoadScene(scene.name);
         }
+
       }
 }

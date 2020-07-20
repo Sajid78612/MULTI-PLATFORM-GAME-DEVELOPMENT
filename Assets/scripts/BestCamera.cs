@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class BestCamera : MonoBehaviour
 {
+    //variables for camera third person
     float rotationSpeed = 1;
     public Transform Target, Player;
-    float mouseX, mouseY;
+    public float mouseX, mouseY;
 
     public Transform Obstruction;
-    float zoomSpeed = 2f;
-    
+    //float zoomSpeed = 2f;
+
     void Start()
     {
         Cursor.visible = false;
@@ -19,7 +20,9 @@ public class BestCamera : MonoBehaviour
 
     private void LateUpdate()
     {
-        CamControl();
+        if(!pausemenu.isGamePaused && !summary.isSumPaused) { 
+            CamControl();
+        }
     }
     
 
@@ -34,10 +37,12 @@ public class BestCamera : MonoBehaviour
         if (Input.GetKey(KeyCode.LeftShift))
         {
             Target.rotation = Quaternion.Euler(mouseY, mouseX, 0);
+
+
         }
         else
         {
-            Target.rotation = Quaternion.Euler(mouseY, mouseX, 0);
+            Target.rotation = Quaternion.Euler(0, mouseX, 0);
             Player.rotation = Quaternion.Euler(0, mouseX, 0);
         }
     }

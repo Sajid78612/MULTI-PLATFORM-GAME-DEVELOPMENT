@@ -1,1 +1,12 @@
-.psd filter=lfs diff=lfs merge=lfs -text
+*.assets filter=lfs diff=lfs merge=lfs -text
+*.assets.resS filter=lfs diff=lfs merge=lfs -text
+*.resS filter=lfs diff=lfs merge=lfs -text
+2943d310f819889ed2573beba1f5f94a filter=lfs diff=lfs merge=lfs -text
+407a42975c911c8ab1fe16b0b6483773 filter=lfs diff=lfs merge=lfs -text
+63867a60d97197f96b6000e5958ee757 filter=lfs diff=lfs merge=lfs -text
+9562734fa79b685fc09e033df8c4bf3e filter=lfs diff=lfs merge=lfs -text
+be343da93b36351ae72122d523d23d90 filter=lfs diff=lfs merge=lfs -text
+cb9a3d588fd56750ab7841bdd0119bf0 filter=lfs diff=lfs merge=lfs -text
+df2c027ee68a21f080a228edd4969a3f filter=lfs diff=lfs merge=lfs -text
+e1c57c3a9e884c4717df9accdc3d260d filter=lfs diff=lfs merge=lfs -text
+f92bf3999faf6f9042d6bc6e391fa23f filter=lfs diff=lfs merge=lfs -text

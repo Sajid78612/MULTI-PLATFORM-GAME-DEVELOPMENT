@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyPath : MonoBehaviour
 {
   public Transform[] target;
-  public float speed;
+  public float speed = 50;
   private int current;
     // Update is called once per frame
     void Update()

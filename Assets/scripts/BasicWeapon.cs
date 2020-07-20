@@ -5,6 +5,9 @@ using UnityEngine.UI;
 
 public class BasicWeapon : MonoBehaviour
 {
+    //variables
+    public PlayerSystem ps;
+    public int damage;
     public int maxClipSize = 8;
     private int ammoRemaining = 0;
     float maxRange = 300f;
@@ -29,7 +32,7 @@ public class BasicWeapon : MonoBehaviour
         UpdateUI();
     }
 
-    void UpdateUI() {
+    void UpdateUI() { //update ui every frame
         if(ammoRemainingLabel != null) {
             ammoRemainingLabel.text = ammoRemaining.ToString();
         }
@@ -43,7 +46,7 @@ public class BasicWeapon : MonoBehaviour
         }
     }
 
-    void Fire() {
+    void Fire() {//fire method for shooting gun using raycast
         ammoRemaining -= 1;
         UpdateUI();
 
@@ -65,34 +68,39 @@ public class BasicWeapon : MonoBehaviour
             var damage = hitInfo.collider.GetComponentInParent<damageTaken>();
 
             if (damage != null) {
-                damage.TakeDamage();
+                damage.TakeDamage(20);
             }
         }
     }
 
+    /*
     void Reload() {
         ammoRemaining = maxClipSize;
         UpdateUI();
     }
+    */
 
     // Update is called once per frame
-    void Update()
+    void Update() //update every frame to see if shot has been fired
     {
         if (!playerControlled) {
             return;
         }
 
         if(Input.GetButtonDown("Fire1")) {
-            if(ammoRemaining > 0) {
+            if(ammoRemaining > 0 && !pausemenu.isGamePaused && !summary.isSumPaused) {
                 sound.Play();
+                ps.gunShoot(25);
                 Fire();
             }
         }
 
+        /*
         if(Input.GetKeyDown("r")) {
             if(ammoRemaining != 8) {
                 Reload();
             }
         }
+        */
     }
 }

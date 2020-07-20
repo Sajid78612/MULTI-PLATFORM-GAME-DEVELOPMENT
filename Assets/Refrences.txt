@@ -1,0 +1,61 @@
+Resources/Code Insperation:
+
+NEK EN. NK (2015) Input Rotation With Camera [Tutorial][C#] - Unity 3d Youtube
+https://www.youtube.com/watch?v=N34eNLzzfvQ&list=PLvcwihqjlc0DREZ8mtHHdjIoptC-ZfXgE&index=2&t=2s
+
+Stephen Barr S.B (2018) Make a Third Person Camera and Movement Controller in 7 Minutes | Unity Tutorial (or Download), Youtube
+
+https://www.youtube.com/watch?v=7nxpDwnU0uU&list=PLvcwihqjlc0DREZ8mtHHdjIoptC-ZfXgE&index=2
+
+Filmstorm  F.(2017) Free 3rd Person Camera Setup & Camera Collision Tutorial, Youtube
+
+https://www.youtube.com/watch?v=LbDQHv9z-F0&list=PLvcwihqjlc0DREZ8mtHHdjIoptC-ZfXgE&index=3
+
+GuianeCZ Unity3D - Tutorial-Weapon Pick Up! [EN] (2016) , Youtube
+https://www.youtube.com/watch?v=UOsRrql9kxw&list=PLvcwihqjlc0DREZ8mtHHdjIoptC-ZfXgE&index=4
+
+Indie-pixel, Unity2017 - Top Down Camera - Lesson002 (2017) , Youtube
+https://www.youtube.com/watch?v=oknQEX60nKY&list=PLvcwihqjlc0DREZ8mtHHdjIoptC-ZfXgE&index=5
+
+Assets:
+Snaps , Snaps Prototype | Office (2017) , Youtube
+https://assetstore.unity.com/packages/3d/environments/snaps-prototype-office-137490
+
+N. Beats N.B , (2019)  Gun Silencer Sound Effect | Sfx | HD , Youtube
+https://www.youtube.com/watch?v=e7lf_9HW5So
+
+Amazon S.A . R . L (2019) Amazon.co.uk Printable Gift Voucher , Youtube
+https://www.amazon.co.uk/Amazon-Logo-Squid-Printable-Amazon-co-uk/dp/B07RCZMZXF
+
+John GodGames , (2015)Sly Cooper and the Thievius Raccoonus - PS2 Gameplay 1080p (PCSX2) Youtube
+https://youtu.be/KUFaYB6oRWM?t=169
+
+ECLYPSO / KlumsyK, Skybox-Add-on, (2019) Unity website
+https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-add-on-136594, 
+
+
+Raja , (2019) Fragile parcel and envelope labels
+https://www.rajapack.co.uk/packaging-labels/packaging-shipping-labels/fragile-parcel-envelope-labels_OFF_UK_0182.html 
+
+https://www.pond5.com/sound-effects/item/69708149-rusty-metal-hatch
+CMIUC100 (2019) DIESEL TRUCK SOUND EFFECT (2012), Youtube 
+https://www.youtube.com/watch?v=K5XKZiYb-uU
+
+Small Part ,(2020) Truck start sound effect (2020) Youtube
+https://www.youtube.com/watch?v=ppijFi-EQG8
+
+MiamiAirborne, (2015), INSANELY LOUD!!!! 727 TAKEOFF Amerijet At Miami International (2019) Youtube  https://www.youtube.com/watch?v=Db1u6I_lukU&t=39s 
+
+Free Sound Library (2019) Thunder Sound No Rain – Free Sound Effects – Ambient Sounds (2019) 
+Youtube https://www.youtube.com/watch?v=AN454nr6f_k 
+
+Free Sound Library (2016) Rain Sound Effect Short (2 minutes) ♪
+ Youtube (2019) https://www.youtube.com/watch?v=J6G0EuPAoKQ  
+
+ProGrids, ProGrid (2020)
+https://www.procore3d.com/progrids/
+
+Other Acknowledgments
+Unity Technology, Standard Unity Assets, asset acquired (March 2018) Publisher Unity Asset Store
+LIGHTBUG, Laser Machine, asset acquired (Jan 2019) Publisher Unity Asset Store
+ECLYPSO, Skybox-add-on, asset acquired (Feb 2019) Publisher Unity Asset Store

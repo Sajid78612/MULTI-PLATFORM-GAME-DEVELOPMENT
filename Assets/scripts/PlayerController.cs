@@ -2,32 +2,42 @@ using UnityEngine ;
 using System.Collections ;
 
 public class PlayerController : MonoBehaviour {
-  public float Speed;
-  public static int lives = 3;
+  //main script for player movement
+  public float Speed = 3;
   public GameObject mainCam;
-  public GameObject  FirstPerson;
+  public GameObject FirstPerson;
+  public GameObject crosshair;
+
+  public GameObject roofRemoval;
   
   public bool isFirst = true;
   public bool isTopDown = false;
 
   public Transform camTransform;
   public Vector3 MoveVector;
-  void Update ()
+  void Update () //checking to see if player switches camera modes
   {
-   if(Input.GetKeyDown("c"))
+   if(Input.GetKeyDown("c") && !pausemenu.isGamePaused && !summary.isSumPaused)
    {
      FirstPerson.SetActive(!isFirst);
      mainCam.SetActive(!isTopDown);
+     crosshair.SetActive(!isFirst);
      isFirst = !isFirst;
      isTopDown = !isTopDown;
+     roofRemoval.SetActive(isFirst);
    }
    if(isFirst) {
      MoveVector = PoolInput();
      MoveVector = RotateWithView();
      PlayerMovement();
    }
+   else {
+     MoveVector = PoolInput();
+     MoveVector = RotateWithView();
+     PlayerMovement();
+   }
   }
-  Vector3 PoolInput()
+  Vector3 PoolInput() //player inputs
   {
     Vector3 dir = Vector3.zero;
     dir.x = Input.GetAxis("Horizontal");

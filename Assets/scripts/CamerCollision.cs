@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class CamerCollision : MonoBehaviour
 {
-	public float minDistance = 3.0f;
+	//variables for the camera collision. use the awake function.
+	public float minDistance = 1.0f;
 	public float maxDistance = 4.0f;
 	public float smooth = 10.0f;
 	Vector3 dollyDir;
